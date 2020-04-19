@@ -1,4 +1,4 @@
-package com.program.chat01;
+package com.program.chat01.note02;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

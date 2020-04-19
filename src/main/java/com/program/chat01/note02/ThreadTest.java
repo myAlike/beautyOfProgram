@@ -1,4 +1,4 @@
-package com.program.chat01;
+package com.program.chat01.note02;
 
 public class ThreadTest {
     public static class Mythread extends Thread{

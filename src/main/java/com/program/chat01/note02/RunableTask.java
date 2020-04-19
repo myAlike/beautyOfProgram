@@ -1,4 +1,4 @@
-package com.program.chat01;
+package com.program.chat01.note02;
 
 public class RunableTask implements Runnable{
 
