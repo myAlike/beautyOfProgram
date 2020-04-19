@@ -51,9 +51,8 @@ public class WaitNotigyAllTest {
                 // 获取resourceA共享资源的监视器锁
                 synchronized (resourceA) {
                     // 获取resourceB共享资源的监视器锁
-
-                        System.out.println("threadC begin notify");
-                        resourceA.notifyAll();
+                    System.out.println("threadC begin notify");
+                    resourceA.notifyAll();
                 }
             }
         });
