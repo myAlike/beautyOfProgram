@@ -1,6 +1,6 @@
 package com.program.chat01.note03;
 
-public class WaitNotigyAllTest {
+public class WaitNotigyAllTest_03 {
     // 创建资源
     private static volatile Object resourceA = new Object();
 
@@ -52,7 +52,8 @@ public class WaitNotigyAllTest {
                 synchronized (resourceA) {
                     // 获取resourceB共享资源的监视器锁
                     System.out.println("threadC begin notify");
-                    resourceA.notifyAll();
+//                    resourceA.notifyAll();
+                    resourceA.notify();
                 }
             }
         });

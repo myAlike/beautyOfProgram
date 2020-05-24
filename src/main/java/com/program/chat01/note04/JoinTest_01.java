@@ -1,6 +1,6 @@
 package com.program.chat01.note04;
 
-public class JoinTest {
+public class JoinTest_01 {
     public static void main(String[] args) throws InterruptedException {
         Thread threadOne = new Thread(new Runnable() {
             @Override

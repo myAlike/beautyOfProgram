@@ -16,6 +16,7 @@ public class SleepTest {
                 try {
                     System.out.println("child  threadA is in sleep");
                     Thread.sleep(1000);
+                    System.out.println("child threadA is in awaled");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {

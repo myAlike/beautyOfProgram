@@ -1,6 +1,6 @@
 package com.program.chat01.note03;
 
-public class WaitNotifyInterupt {
+public class WaitNotifyInterupt_02 {
     static Object obj = new Object();
 
     public static void main(String[] args) throws InterruptedException {

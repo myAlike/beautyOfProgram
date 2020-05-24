@@ -8,7 +8,7 @@ public class YieldTest implements Runnable {
     }
     @Override
     public void run() {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             // 当i=0时让出CPU执行权，放弃时间片，进行下一轮调度
             if (i % 5 == 0) {
                 System.out.println(Thread.currentThread() + "yield cpu...");

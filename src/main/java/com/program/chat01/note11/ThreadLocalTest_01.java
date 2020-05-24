@@ -1,6 +1,6 @@
 package com.program.chat01.note11;
 
-public class ThreadLocalTest {
+public class ThreadLocalTest_01 {
     //(1)print函数
     static void print(String str){
         // 1.1 打印当前线程本地内存中localVariable变量值

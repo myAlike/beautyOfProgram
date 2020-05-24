@@ -1,6 +1,6 @@
 package com.program.chat01.note11;
 
-public class TestThreadLocal {
+public class TestThreadLocal_02 {
     // (1) 创建ThreadLocal变量
     static ThreadLocal<String> localVariable = new ThreadLocal<String>();
 

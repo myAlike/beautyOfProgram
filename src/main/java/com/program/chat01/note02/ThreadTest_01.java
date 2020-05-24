@@ -1,6 +1,6 @@
 package com.program.chat01.note02;
 
-public class ThreadTest {
+public class ThreadTest_01 {
     public static class Mythread extends Thread{
         @Override
         public void run() {

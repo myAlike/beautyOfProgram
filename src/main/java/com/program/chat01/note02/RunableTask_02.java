@@ -1,11 +1,11 @@
 package com.program.chat01.note02;
 
-public class RunableTask implements Runnable{
+public class RunableTask_02 implements Runnable{
 
 
 
     public static void main(String[] args) {
-        RunableTask task = new RunableTask();
+        RunableTask_02 task = new RunableTask_02();
         new Thread(task).start();
     }
 

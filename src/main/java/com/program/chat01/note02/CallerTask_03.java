@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
-public class CallerTask implements Callable<String> {
+public class CallerTask_03 implements Callable<String> {
 
     @Override
     public String call() throws Exception {
@@ -13,7 +13,7 @@ public class CallerTask implements Callable<String> {
 
     public static void main(String[] args) {
         // 创建异步任务
-        FutureTask<String> futureTask = new FutureTask<String>(new CallerTask());
+        FutureTask<String> futureTask = new FutureTask<String>(new CallerTask_03());
         // 启动线程
         new Thread(futureTask).start();
         try {

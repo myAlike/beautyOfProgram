@@ -1,6 +1,6 @@
 package com.program.chat01.note04;
 
-public class Join2Test {
+public class Join2Test_02 {
     public static void main(String[] args) {
         //线程one
         Thread threadOne = new Thread(new Runnable() {
